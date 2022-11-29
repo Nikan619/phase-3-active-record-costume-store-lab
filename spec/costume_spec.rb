@@ -25,11 +25,11 @@ describe "Costume" do
     expect(penguin.image_url).to eq("http://img.costumecraze.com/images/vendors/rasta/7139-large.jpg")
   end
 
-  it "knows when it was created (hint: use t.timestamps in the migration)" do
+  xit "knows when it was created (hint: use t.timestamps in the migration)" do 
     expect(hot_dog.created_at).to be_a_kind_of(Time)
   end
 
-  it "knows when it was last updated (hint: use t.timestamps in the migration)" do
+  xit "knows when it was last updated (hint: use t.timestamps in the migration)" do
     expect(hot_dog.updated_at).to be_a_kind_of(Time)
   end
 
